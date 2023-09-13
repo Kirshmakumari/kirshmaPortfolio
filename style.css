@@ -499,12 +499,9 @@ span {
 
 .contact .contact_content .info .subtitle {
   color: #333;
+  cursor: text;
 }
-.contact .contact_content .info .subtitle a {
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-}
+
 
 .contact .contactRight form .fields {
   display: flex;
