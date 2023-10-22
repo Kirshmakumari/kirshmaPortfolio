@@ -2,292 +2,338 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIRSHMA's Portfolio</title>
+
+
+    <!-- <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> -->
+    <!-- external css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawsome cdn (for icons) -->
+    <script src="https://kit.fontawesome.com/595264f5cd.js" crossorigin="anonymous"></script>
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- for animation typing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
-    <!-- fontawsome cdn (for icons) -->
-    <script src="https://kit.fontawesome.com/595264f5cd.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- cloudflare for carousal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
 </head>
 
 <body>
-    <!-- header -->
-    <header class="header">
-        <a href="#" class="logo">PORTFOLIO</a>
-        <div class="fa-solid fa-bars" id="menu-icon"></div>
-        <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
-    <div class="container">
-        <!-- section Home -->
-        <section id="#">
-            <div class="home">
-                <div class="img">
-                    <img src="./images/myImg.jpg" alt="" />
-                </div>
-                <div class="text">
-                    <div class="intro">
-                        <span class="one">Hello</span>
-                        <span class="two">My Name is</span>
-                    </div>
-                    <h1>KIRSHMA KUMARI</h1>
-                    <h2>And I'm <span class="typing"></span></h2>
-                    <p>
-                        FrontEnd developer with 1 year experience that keep customers
-                        coming back for about services makes best offer.
-                    </p>
-                    <div class="button">
-                        <a href="resume/Kirshma.frontend developer.pdf" class="btn" target="_blank" title="" download>Download
-                            CV</a>
-                        <a href="#projects" class="btn2"><span><i class="fa-regular fa-circle-play"></i></span>Watch My
-                            work</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section About -->
-        <section id="about">
-            <div class="about max_width">
-                <div class="title">
-                    <h2>About me</h2>
-                    <span>__Who I am__</span>
-                </div>
-
-                <div class="about_content">
-                    <div class="aboutRight">
-                        <img src="images/avatar.jpg" alt="" />
-                    </div>
-                    <div class="aboutLeft">
-                        <div class="text">
-                            I'm Kirshma Kumari and I'm a <span class="typing-2"></span>
-                        </div>
-                        <p>
-                            A passionate and driven web developer in my 2nd year of
-                            BS of BS Computer Science. Web development has always
-                            been my area of interest, and I have dedicated myself to
-                            mastering the necessary skills and technologies. As a web
-                            developer, I have a strong foundation in front-end
-                            technologies such as HTML, CSS, and JavaScript
-                        </p>
-                        <a href="./resume/Kirshma.frontend developer.pdf" target="_blank" title="" download>Download
-                            Resume</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section Porjects -->
-        <section id="projects">
-            <div class="projects max_width">
-                <div class="title">
-                    <h2>My Projects</h2>
-                    <span>__Projects__</span>
-                </div>
-                <div class="proj_content">
-                    <!-- card1 -->
-                    <div class="card">
-
-                        <img src="./images/timer.jpg" alt="">
-
-                        <div class="text">
-                            <h2>Timer</h2>
-                            <p>A javascript countdown clock or timer with beautiful HTML ,CSS styling and JS date
-                                methods that is simple to use in any project or on any website.</p>
-                            <a href="https://github.com/Kirshmakumari/timer.git" target="_blank">Explore</a>
-                        </div>
-                    </div>
-                    <!-- card2 -->
-                    <div class="card">
-                        <div>
-                            <img src="./images/fg_scanner.jpg" alt="">
-                        </div>
-                        <div class="text">
-                            <h2>Fingerprint UI</h2>
-                            <p>A fingerprint scanner user interface (UI) using HTML and CSS involves designing a visual
-                                representation of a fingerprint scanner for a web application. </p>
-                            <a href="https://github.com/Kirshmakumari/fingerprint-scanner-UI.git"
-                                target="_blank">Explore</a>
-                        </div>
-                    </div>
-
-
-                    <!-- card3 -->
-                    <div class="card">
-                        <div>
-                            <img src="./images/calender.jpg" alt="">
-                        </div>
-                        <div class="text">
-                            <h2>Calender</h2>
-                            <p>Create JavaScript variables to keep track of the current month and year, as well as
-                                elements to display the current month and year on the page.</p>
-                            <a href="https://github.com/Kirshmakumari/calender.github.io.git" target="_blank">Explore</a>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Section Skills -->
-        <section id="skills">
-            <div class="skills max_width">
-                <div class="title">
-                    <h2>My Skills</h2>
-                    <span>__What I Know__</span>
-                </div>
-                <div class="skills_content">
-                    <div class="skillsLeft">
-                        <div class="text">My creative skills & experiences.
-                        </div>
-                        <p>
-                            A web developer with a passion for creativity and design. Throughout my
-                            journey in web development, I have nurtured a set of creative skills that allow me to craft
-                            engaging and visually appealing digital experiences.
-                            One of my primary creative strengths lies in front-end web development. With expertise in
-                            HTML,
-                            CSS, and JavaScript,I have honed my ability to design and build aesthetically pleasing and
-                            functional websites. Additionally,I am excited to leverage my skills and
-                            knowledge to contribute to exciting projects and collaborate with like-minded professionals.
-                        </p>
-
-                        <a href="#">Read more</a>
-                    </div>
-                    <div class="skillsRight">
-                        <!-- html bar -->
-                        <div class="bars">
-                            <div class="info">
-                                <span>HTML</span>
-                                <span>95%</span>
-                            </div>
-                            <div class="line html"></div>
-                        </div>
-                        <!-- css bar -->
-                        <div class="bars">
-                            <div class="info">
-                                <span>CSS</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="line css"></div>
-                        </div>
-                        <!-- js bar -->
-                        <div class="bars">
-                            <div class="info">
-                                <span>Javascript</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="line js"></div>
-                        </div>
-                        <!-- bootstrap bar -->
-                        <div class="bars">
-                            <div class="info">
-                                <span>Bootstrap</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="line Bootstrap"></div>
-                        </div>
-                        <!-- Jquery bar -->
-                        <div class="bars">
-                            <div class="info">
-                                <span>jQuery</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="line jQuery"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- contact -->
-        <section id="contact">
-            <div class="contact max_width">
-                <div class="title">
-                    <h2>Contact me</h2>
-                    <span>__Get in touch__</span>
-                </div>
-                <div class="contact_content">
-                    <div class="contactLeft">
-                        <div class="text">Get in Touch</div>
-                        <p>Hello there! I'm Kirshma Kumari a passionate web developer with a flair for creativity. If
-                            you
-                            have a Project in mind, a collaboration opportunity, or just want to connect, I'd be
-                            delighted
-                            to hear from you.</p>
-                        <div class="icons">
-                            <div class="row">
-                                <i class="fa-solid fa-user"></i>
-                                <div class="info">
-                                    <div class="head">Name</div>
-                                    <div class="subtitle">Kirshma Kumari</div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <div class="info">
-                                    <div class="head">Address</div>
-                                    <div class="subtitle">Mithi Tharparkar</div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <i class="fa-sharp fa-solid fa-envelope"></i>
-                                <div class="info">
-                                    <div class="head">Email</div>
-                                    <div class="subtitle">kumarikirshma@gmail.com</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contactRight">
-                        <div class="text">Message me</div>
-                        <form action="#">
-                            <div class="fields">
-                                <div class="field name">
-                                    <input type="text" placeholder="Name" required>
-                                </div>
-                                <div class="field email">
-                                    <input type="email" placeholder="Email" required>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <input type="text" placeholder="Subject" required>
-                            </div>
-                            <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Message.." required> </textarea>
-                            </div>
-                            <div class="button-area">
-                                <button type="submit">Send message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-
-        <footer>
-            <p class="social-icons">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/kirshma-kumari/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            </p>
-            <span>Created By <a href="#">Kirshma Kumari</a> | <span> <i class="fa-regular fa-copyright"></i></span> 2023
-                All
-                rights reserved.</span>
-        </footer>
+    <!-- back to top btn -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
     </div>
-    <script src="./script.js"></script>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><strong>Kirshma's</strong> <span>Portfolio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <!-- menu bar btn -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">KIRSHMA KUMARI</div>
+                <div class="text-3">And I'm a <span class="typing"></span>
+                </div>
+                
+                <a href="#contact">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/myImg.jpg" alt="My Photo">
+                </div>
+                <div class="column right">
+                    <div class="text"> I'm Kirshma & I'm a <span class="typing-2"></span></div>
+                    <p>
+                        A passionate and driven web developer in my 2nd year of
+                        BS Computer Science. Web development has always
+                        been my area of interest, and I have dedicated myself to
+                        mastering the necessary skills and technologies. As a web
+                        developer, I have a strong foundation in front-end
+                        technologies such as HTML, CSS, and JavaScript. Currenty I am exploring React Js.
+                    </p>
+                    <a href="./resume/Kirshma.frontend developer.pdf" class="btn" target="_blank" download>Download
+                        CV</a>
+                    <a href="#projects" class="btn2"><span><i class="fa-regular fa-circle-play"></i></span>Watch My
+                        work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="carousel owl-carousel">
+
+                <div class="card">
+                    <div class="box">
+                        <a href=" https://kirshmakumari.github.io/TODO_list/"><img src="./images/todo list.jpg"
+                                alt="TODO_list Image"></a>
+                        <div class="txt">TODO App</div>
+                        <p>Todo Application using HTML, CSS & JavaScript (DOM) with edit, delete botton</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <a href="https://codepen.io/Kirshmakumari/pen/XWOWmQO"><img src="./images/QR code generator.jpg"
+                                alt="QR Code Generator Image"></a>
+                        <div class="txt">QR Code Generator</div>
+                        <p>Type text or url & then press generate to generate QR Code & press download to download
+                            it.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <a href=" https://kirshmakumari.github.io/calculater_UI/"><img src="./images/calculator UI.jpg"
+                                alt="Calculator Image"></a>
+                        <div class="txt">Calculator</div>
+                        <p>Basic calculator made using HTML, CSS (Grid) and Javascript(Event Listeners).</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="box">
+                        <a href="https://codepen.io/Kirshmakumari/pen/BaMaQgy"><img src="./images/analog clock.jpg"
+                                alt="Analog Clock Image"></a>
+                        <div class="txt">Analog Clock</div>
+                        <p>An analog clock made using HTML, CSS & Javascript.It shows current time of your
+                            time zone.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://kirshmakumari.github.io/timer/"><img src="./images/timer.jpg"
+                                alt="Stopwatch Image"></a>
+                        <div class="txt">Stopwatch</div>
+                        <p>A javascript countdown clock or timer with beautiful HTML ,CSS styling and JS date methods.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://codepen.io/Kirshmakumari/pen/gOqOvPj"><img src="./images/calendar.jpg"
+                                alt="calendar Image"></a>
+                        <div class="txt">Calendar UI</div>
+                        <p>Created using JavaScript variables to keep track of the current month and year.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <a href="https://kirshmakumari.github.io/fingerprint-scanner-UI/"><img
+                                src="./images/fg_scanner.jpg" alt="fingerprint-scanner-UI Image"></a>
+                        <div class="txt">Fingerprint UI</div>
+                        <p>An animated fingerprint scanner user interface (UI) using HTML and CSS.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>
+                        A web developer with a passion for creativity and design. Throughout my
+                        journey in web development, I have nurtured a set of creative skills that allow me to craft
+                        engaging and visually appealing digital experiences.
+                        One of my primary creative strengths lies in front-end web development. With expertise in
+                        HTML,
+                        CSS, and JavaScript,I have honed my ability to design and build aesthetically pleasing and
+                        functional websites. Additionally,I am excited to leverage my skills and
+                        knowledge to contribute to exciting projects and collaborate with like-minded professionals.
+                    </p>
+
+
+                    <a href="https://www.linkedin.com/in/kirshma-kumari" target="_blank">Read more</a>
+                </div>
+                <div class="column right">
+                    <!-- html bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <!-- css bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <!-- js bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <!-- bootstrap bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>Bootstrap</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line Bootstrap"></div>
+                    </div>
+                    <!-- Jquery bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>jQuery</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line jQuery"></div>
+                    </div>
+                    <!-- React js bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>React JS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line react"></div>
+                    </div>
+                    <!-- Github bar -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>Git & GitHub</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line git-github"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Hello there! I'm Kirshma Kumari a passionate web developer with a flair for creativity. If
+                        you
+                        have a Project in mind, a collaboration opportunity, or just want to connect, I'd be
+                        delighted
+                        to hear from you.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Kirshma Kumari</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Karachi, Pakistan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">kumarikirshma@gmail.com</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formspree.io/f/xrgwjbbd" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required name="name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required name="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required name="subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="message"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <p class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="linkedin.com/in/kirshma-kumari" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </p>
+        <span>Created By <a href="#">Kirshma Kumari</a> | <span class="far fa-copyright"></span>
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script> All rights
+            reserved.
+        </span>
+    </footer>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- External Js -->
+    <script src="script.js"></script>
 </body>
 
 </html>
