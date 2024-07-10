@@ -436,7 +436,7 @@ section .title::after {
 }
 
 .skills-content .right .react::before {
-  width: 50%;
+  width: 60%;
 }
 
 .skills-content .right .git-github::before {
@@ -803,11 +803,10 @@ footer span a:hover {
     width: max-content;
   }
 
-
   .skills .skills-content .left .text {
     font-size: 19px;
   }
-  .about .about-content .right .text{
+  .about .about-content .right .text {
     width: max-content;
     font-size: 17px;
     font-weight: bold;
